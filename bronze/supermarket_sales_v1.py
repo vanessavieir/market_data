@@ -8,7 +8,7 @@ df = spark.read.option("header", True) \
              .option("encoding", "latin1") \
              .csv('/FileStore/tables/supermarket_sales_v1.csv')
  
-# df.write.mode("overwrite").saveAsTable('bronze_leochalhoub_nttdata.supermarket_sales_v1')
+# df.write.mode("overwrite").saveAsTable('bronze_industria.supermarket_sales_v1')
 
 # COMMAND ----------
 
